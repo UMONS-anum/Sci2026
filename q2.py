@@ -3,12 +3,11 @@ from math import *
 import numpy as np
 from scipy import optimize
 
-from Sci2026.q1 import racines_f
 
 def f(x:float,y:float)->float:
     """
     Entrée: deux floatants x et y .
-    Sortie: un floatant calculé à partir de x et y sui retourne 4+y**2-y**(pi)/x +3*sin(x/y), la fonction f donné dans l'énoncé.
+    Sortie: un floatant calculé à partir de x et y qui retourne 4+y**2-y**(pi)/x +3*sin(x/y), la fonction f donné dans l'énoncé.
     Effet de bord si x=0 ou y=0: lève une exception.
     """
     if x==0 or y==0:
