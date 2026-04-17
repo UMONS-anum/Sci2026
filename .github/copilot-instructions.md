@@ -15,6 +15,7 @@
   return types.  If the return type is `None`, it must *not* not be
   declared.
 - Use the PEP 695 syntax (Python >= 3.12).
+- Forbid **global variables**.
 - **Documentation**: every function that is not a test must have **at
   least one line of documentation** (docstring).
   - If a function has no docstring, suggest a very short one (one sentence) that states its purpose.
