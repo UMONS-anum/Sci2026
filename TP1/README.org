@@ -1,6 +1,0 @@
-* TP1 : recherche de racine
-
-Objectifs :
-- Analyse mathématique des problèmes, en s'aidant de graphiques.
-- Utilisation des méthodes de recherche de racines (e.g. [[https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.toms748.html][toms748]])
-  avec des bornes informées par l'analyse mathématique préalable.
